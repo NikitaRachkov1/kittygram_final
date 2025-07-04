@@ -16,5 +16,5 @@ ENTRYPOINT ["sh", "-c", "\
     python manage.py migrate --noinput && \
     python manage.py collectstatic --noinput && \
     exec gunicorn kittygram_backend.wsgi:application \
-      --bing 0.0.0.0:8000 \
+      --bind 0.0.0.0:8000 \
 "]
