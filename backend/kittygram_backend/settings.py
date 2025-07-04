@@ -10,7 +10,7 @@ SECRET_KEY = (
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['yandexkittygram.zapto.org']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '89.169.161.170']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
