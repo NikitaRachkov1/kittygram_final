@@ -15,6 +15,7 @@ ALLOWED_HOSTS = [
     'www.yandexkittygram.zapto.org',
     'localhost',
     '127.0.0.1',
+    'backend',
 ]
 
 INSTALLED_APPS = [
