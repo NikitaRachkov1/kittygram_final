@@ -10,7 +10,7 @@ SECRET_KEY = os.getenv(
 
 DEBUG = os.getenv('DEBUG', True)
 
-hosts = os.getenv('ALLOWED_HOSTS', '')
+hosts = os.getenv('ALLOWED_HOSTS', " ")
 if hosts.strip() == '*':
     ALLOWED_HOSTS = ['*']
 else:
